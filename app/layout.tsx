@@ -7,11 +7,44 @@ import Plasma from "@/components/plasma"
 
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 
+
 export const metadata: Metadata = {
-  title: "Remedy | 3D Animation Made Simple, Reliable & Scalable",
+  title: "Remedy | Solution to every animated problems",
   description:
     "From product launches to full-scale campaigns, Remedy delivers 3D animation that's fast, consistent, and built to wow your audience.",
-}
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
+  openGraph: {
+    title: "Remedy | Solution to every animated problems",
+    description:
+      "Test, monitor, and optimize your applications with PerformanceHub – real-time metrics, analytics & monitoring.",
+    url: "https://remedy-lilac.vercel.app",
+    siteName: "PerformanceHub",
+    images: [
+      {
+        url: "https://remedy-lilac.vercel.app/favicon.ico",
+        width: 1200,
+        height: 630,
+        alt: "PerformanceHub Dashboard",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PerformanceHub | Performance Testing Platform",
+    description:
+      "Boost app speed with PerformanceHub – real-time metrics, analytics & monitoring.",
+    images: ["https://remedy-lilac.vercel.app/favicon.ico"],
+  },
+};
 
 export default function RootLayout({
   children,

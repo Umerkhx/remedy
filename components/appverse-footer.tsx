@@ -14,8 +14,8 @@ interface FooterContent {
 }
 
 const defaultContent: FooterContent = {
-  tagline: "Experience 3D animation like never before. We craft cinematic visuals for brands and products.",
-  copyright: "© 2025 — Remedy International Uk",
+  tagline: "Experience 3D Modeling, Video Animation Out Of This World",
+  copyright: "© 2025 — Remedy ",
 }
 
 export function AppverseFooter() {
@@ -133,7 +133,7 @@ export function AppverseFooter() {
                   <li className="flex items-center gap-2">
                     <Twitter className="h-4 w-4 text-neutral-400" />
                     <a
-                      href="https://twitter.com/theRemedy"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-lime-300"
@@ -145,7 +145,7 @@ export function AppverseFooter() {
                   <li className="flex items-center gap-2">
                     <Youtube className="h-4 w-4 text-neutral-400" />
                     <a
-                      href="https://www.youtube.com/@Remedyinternational"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-lime-300"
@@ -157,7 +157,7 @@ export function AppverseFooter() {
                   <li className="flex items-center gap-2">
                     <Instagram className="h-4 w-4 text-neutral-400" />
                     <a
-                      href="https://instagram.com/theRemedy"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-lime-300"
@@ -169,7 +169,7 @@ export function AppverseFooter() {
                   <li className="flex items-center gap-2">
                     <MessageCircle className="h-4 w-4 text-neutral-400" />
                     <a
-                      href="https://threads.com/theRemedy"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-lime-300"
